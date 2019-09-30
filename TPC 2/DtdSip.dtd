@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Project-Record (Cabeçalho,Workteam,Abstract,Deliverables)>
+
+<!ELEMENT Cabeçalho (key_name,title,subtitle,begin_date,end_date,supervisor) >
+<!ELEMENT  key_name (#PCDATA) >
+<!ELEMENT  title (#PCDATA) >
+<!ELEMENT  subtitle (#PCDATA) >
+<!ELEMENT  begin_date (#PCDATA) >
+<!ELEMENT  end_date (#PCDATA) >
+<!ELEMENT  supervisor (nome+) >
+<!ELEMENT  nome (#PCDATA) >
+
+<!ELEMENT Workteam ( individuo+) >
+<!ELEMENT  individuo (#PCDATA) >
+
+<!ELEMENT Abstract (#PCDATA) >
+
+<!ELEMENT Deliverables (link+) >
+<!ELEMENT  link (#PCDATA) >
