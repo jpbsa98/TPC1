@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_TP4</keyname>
+        <title>TP5</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>10-10-2019</bdate>
+        <edate>14-10-2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41078</identifier>
+            <name>João Pedro Barros Sá</name>
+            <email>jpb.sa@hotmail.com</email>
+            <git>https://github.com/jpbsa98</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+        <p>
+            
+            No TP5 da unidade curricular foi pedido um script que gerencia-se um website para gerir tarefas, alem
+			do habitual project resource.
+        </p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xml">TP5 - XML(PR)</deliverable>
+        <deliverable path="PR.xsl">TP5 - XSL(PR)</deliverable>
+        <deliverable path="prr.html">TP5 - HTML(PR)</deliverable>
+        <deliverable path="PR.DTD">TP5 - DTD(PR)</deliverable>
+        <deliverable path="Servidor.js">TP5 - Servidor | gestor de tarefas</deliverable>
+        
+    </deliverables>
+</pr>
