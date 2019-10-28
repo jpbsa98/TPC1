@@ -1,0 +1,43 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Lista de Musicas
+            .w3-container 
+                ul.w3-ul    
+                    form.w3-container(action='/regista' method='POST')
+                        label.w3-teal
+                            b Provincia
+
+                        input.w3-input.w3-border.w3-light-grey(type='text' name='prov')
+                        label.w3-teal
+                            b local
+                            
+                        input.w3-input.w3-border.w3-light-grey(type='text' name='local')
+                        label.w3-teal
+                            b tit
+                                
+                        input.w3-input.w3-border.w3-light-grey(type='text' name='tit')
+                        br
+                        input.w3-btn.w3-blue-grey(type='submit' value='Envio') 
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th Titulo
+                        th Local
+                        th Visualizar
+                        th Apagar
+                        th Editar
+                    each arq in lista
+                        tr
+                            td=arq.tit
+                            td=arq.local
+                            td
+                                button.w3-button.w3-circle.w3-blue-grey(onclick="VisualizaItem('"+ arq.id +"')") X
+                            td
+                                button.w3-button.w3-circle.w3-blue-grey(onclick="ApagaItem('"+ arq.tit+"')") X
+                            td
+                                button.w3-button.w3-circle.w3-blue-grey(onclick="ApagaItem('"+ arq.tit+"')") X
+            footer.w3-container.w3-teal
+                By Realizado por João Sá
