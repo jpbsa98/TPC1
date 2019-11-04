@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "../TP6/pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_TP7</keyname>
+        <title>TP7</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>3-11-2019</bdate>
+        <edate>4-11-2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41100</identifier>
+            <name>João Pedro Barros Sá</name>
+            <email>jpb.sa@hotmail.com</email>
+            <git>https://github.com/jpbsa98</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+            
+            <p>
+                Neste TP7 foi pedido a reliazação de dois exercicios. 
+            </p>
+            <p>
+                No primeiro exercicio criamos querys de base de dados
+            </p>
+            <p>
+                No segundo fizemos o crud para uma base de dados
+            </p>
+          
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">TP7 - XML(PR)</deliverable>
+        <deliverable path="pr.html">TP7 - HTML(PR)</deliverable>
+        <deliverable path="Queries.txt">TP7 - Queries</deliverable>
+        <deliverable path="Filmes">TP7 - Aplicação</deliverable>
+        
+        
+    </deliverables>
+</pr>
