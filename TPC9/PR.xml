@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_TP4</keyname>
+        <title>TP9</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>10-11-2019</bdate>
+        <edate>18-11-2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41078</identifier>
+            <name>João Pedro Barros Sá</name>
+            <email>jpb.sa@hotmail.com</email>
+            <git>https://github.com/jpbsa98</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+        <p>
+            
+            No TP9 da unidade curricular foi pedido uma api que gerencie compositores
+        </p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="PR.xml">TP9 - XML(PR)</deliverable>
+        <deliverable path="PR.xsl">TP9 - XSL(PR)</deliverable>
+        <deliverable path="prr.html">TP9 - HTML(PR)</deliverable>
+        <deliverable path="PR.DTD">TP9 - DTD(PR)</deliverable>
+        <deliverable path="compositores.js">TP6 - Servidor | api de compositores</deliverable>
+        
+    </deliverables>
+</pr>
